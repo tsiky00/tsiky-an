@@ -1,5 +1,5 @@
-import React from 'react';
-import { Briefcase, Calendar } from 'lucide-react';
+// ...existing code...
+import { Briefcase, Calendar } from "lucide-react";
 
 export default function Experience() {
   const experiences = [
@@ -7,12 +7,13 @@ export default function Experience() {
       title: "Developpeur Full-stack junior",
       company: "Nir-'info",
       period: "2025 - Present",
-      description: "Lead development of enterprise web applications using React, Node.js, and cloud technologies. Mentor junior developers and architect scalable solutions.",
+      description:
+        "Lead development of enterprise web applications using React, Node.js, and cloud technologies. Mentor junior developers and architect scalable solutions.",
       achievements: [
         "Led team of 5 developers in delivering 3 major product releases",
         "Improved application performance by 40% through optimization",
-        "Implemented CI/CD pipeline reducing deployment time by 60%"
-      ]
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+      ],
     },
     // {
     //   title: "Full-Stack Developer",
@@ -52,32 +53,44 @@ export default function Experience() {
 
         <div className="relative">
           <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-0.5 h-full bg-blue-200 dark:bg-blue-800"></div>
-          
+
           {experiences.map((exp, index) => (
             <div key={index} className="relative mb-12 last:mb-0">
               <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-blue-600 dark:bg-blue-500 rounded-full border-4 border-white dark:border-gray-800 shadow-lg"></div>
-              
-              <div className={`ml-12 md:ml-0 ${index % 2 === 0 ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left'} ${index % 2 === 0 ? 'md:mr-1/2' : 'md:ml-1/2'}`}>
+
+              <div
+                className={`ml-12 md:ml-0 ${
+                  index % 2 === 0
+                    ? "md:pr-8 md:text-right"
+                    : "md:pl-8 md:text-left"
+                } ${index % 2 === 0 ? "md:mr-1/2" : "md:ml-1/2"}`}
+              >
                 <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
                   <div className="flex items-center mb-3">
                     <Briefcase className="w-5 h-5 text-blue-600 dark:text-blue-400 mr-2" />
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white">{exp.title}</h3>
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                      {exp.title}
+                    </h3>
                   </div>
-                  
+
                   <div className="flex items-center mb-4 text-gray-600 dark:text-gray-300">
                     <Calendar className="w-4 h-4 mr-2 text-gray-600 dark:text-gray-400" />
                     <span className="font-medium">{exp.company}</span>
                     <span className="mx-2">•</span>
                     <span>{exp.period}</span>
                   </div>
-                  
-                  <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">{exp.description}</p>
-                  
+
+                  <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+                    {exp.description}
+                  </p>
+
                   <div className="space-y-2">
                     {exp.achievements.map((achievement, achIndex) => (
                       <div key={achIndex} className="flex items-start">
                         <div className="w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                        <span className="text-sm text-gray-700 dark:text-gray-300">{achievement}</span>
+                        <span className="text-sm text-gray-700 dark:text-gray-300">
+                          {achievement}
+                        </span>
                       </div>
                     ))}
                   </div>

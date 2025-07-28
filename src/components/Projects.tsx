@@ -1,40 +1,48 @@
-import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+// ...existing code...
+import { ExternalLink, Github } from "lucide-react";
 
 export default function Projects() {
   const projects = [
     {
       title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include product catalog, shopping cart, and admin dashboard.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description:
+        "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include product catalog, shopping cart, and admin dashboard.",
+      image:
+        "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=400",
       tech: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
       github: "#",
-      demo: "#"
+      demo: "#",
     },
     {
       title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description:
+        "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      image:
+        "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400",
       tech: ["React", "TypeScript", "Socket.io", "MongoDB", "Express"],
       github: "#",
-      demo: "#"
+      demo: "#",
     },
     {
       title: "Weather Dashboard",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description:
+        "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
+      image:
+        "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=400",
       tech: ["React", "TypeScript", "OpenWeather API", "Chart.js"],
       github: "#",
-      demo: "#"
+      demo: "#",
     },
     {
       title: "Social Media Analytics",
-      description: "Analytics dashboard for social media metrics with data visualization, reporting, and performance tracking.",
-      image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description:
+        "Analytics dashboard for social media metrics with data visualization, reporting, and performance tracking.",
+      image:
+        "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400",
       tech: ["React", "D3.js", "Python", "FastAPI", "PostgreSQL"],
       github: "#",
-      demo: "#"
-    }
+      demo: "#",
+    },
   ];
 
   return (
@@ -42,16 +50,19 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Featured Projects
+            Mes Projets
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            A showcase of my recent work and side projects
+            Une présentation de mes travaux récents et projets personnels
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
+            <div
+              key={index}
+              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group"
+            >
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
@@ -74,11 +85,15 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-              
+
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{project.title}</h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">{project.description}</p>
-                
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                  {project.title}
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+                  {project.description}
+                </p>
+
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, techIndex) => (
                     <span
