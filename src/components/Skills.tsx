@@ -5,34 +5,32 @@ export default function Skills() {
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "JavaScript", level: 95 },
+        { name: "React", level: 50 },
+        { name: "TypeScript", level: 50 },
+        { name: "JavaScript", level: 80 },
         { name: "HTML/CSS", level: 90 },
-        { name: "Tailwind CSS", level: 85 },
-        { name: "Next.js", level: 80 }
+        { name: "Tailwind CSS", level: 60 },
+        { name: "Bootstrap", level: 70 }
       ]
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Express.js", level: 80 },
-        { name: "Python", level: 75 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MongoDB", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "PHP/CodeIgniter", level: 70 },
+        { name: "Java", level: 40 },
+        { name: "Python/django", level: 50 },
+        { name: "MySQL", level: 80 },
+        { name: "Oracle", level: 50 },
+        { name: "Merise", level: 60 }
       ]
     },
     {
-      title: "Tools & Others",
+      title: "autre",
       skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 70 },
-        { name: "AWS", level: 65 },
-        { name: "Figma", level: 75 },
-        { name: "Jest", level: 80 },
-        { name: "Webpack", level: 70 }
+        { name: "Git", level: 80 },
+        { name: "Figma", level: 55 },
+        { name: "Photoshop", level: 50 },
+        { name: "Maintenance", level: 60 }
       ]
     }
   ];
@@ -42,7 +40,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Skills & Expertise
+            Competence technique
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Technologies and tools I use to bring ideas to life

@@ -37,7 +37,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Let's Connect</h3>
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contacté moi</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
               I'm always open to discussing new opportunities, interesting projects, 
               or just having a chat about technology and development. Feel free to reach out!
@@ -50,7 +50,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-300">your.email@example.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">anjaratsiky2@gmail.com</p>
                 </div>
               </div>
 
@@ -59,8 +59,8 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Télephone</h4>
+                  <p className="text-gray-600 dark:text-gray-300">+261 34 99 583 42</p>
                 </div>
               </div>
 
@@ -69,8 +69,8 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">San Francisco, CA</p>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Adresse :</h4>
+                  <p className="text-gray-600 dark:text-gray-300">Tanjombato, Antananarivo</p>
                 </div>
               </div>
             </div>

@@ -4,9 +4,9 @@ import { Briefcase, Calendar } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "Tech Innovation Inc.",
-      period: "2022 - Present",
+      title: "Developpeur Full-stack junior",
+      company: "Nir-'info",
+      period: "2025 - Present",
       description: "Lead development of enterprise web applications using React, Node.js, and cloud technologies. Mentor junior developers and architect scalable solutions.",
       achievements: [
         "Led team of 5 developers in delivering 3 major product releases",
@@ -14,28 +14,28 @@ export default function Experience() {
         "Implemented CI/CD pipeline reducing deployment time by 60%"
       ]
     },
-    {
-      title: "Full-Stack Developer",
-      company: "Digital Solutions LLC",
-      period: "2020 - 2022",
-      description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create exceptional user experiences.",
-      achievements: [
-        "Built 15+ responsive web applications from scratch",
-        "Reduced code complexity by 30% through refactoring",
-        "Mentored 3 junior developers in best practices"
-      ]
-    },
-    {
-      title: "Frontend Developer",
-      company: "StartupCo",
-      period: "2019 - 2020",
-      description: "Focused on creating responsive, user-friendly interfaces using React and modern CSS frameworks. Worked closely with UX designers to implement pixel-perfect designs.",
-      achievements: [
-        "Developed component library used across 5 products",
-        "Improved user engagement by 25% through UI improvements",
-        "Established coding standards and best practices"
-      ]
-    }
+    // {
+    //   title: "Full-Stack Developer",
+    //   company: "Digital Solutions LLC",
+    //   period: "2020 - 2022",
+    //   description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create exceptional user experiences.",
+    //   achievements: [
+    //     "Built 15+ responsive web applications from scratch",
+    //     "Reduced code complexity by 30% through refactoring",
+    //     "Mentored 3 junior developers in best practices"
+    //   ]
+    // },
+    // {
+    //   title: "Frontend Developer",
+    //   company: "StartupCo",
+    //   period: "2019 - 2020",
+    //   description: "Focused on creating responsive, user-friendly interfaces using React and modern CSS frameworks. Worked closely with UX designers to implement pixel-perfect designs.",
+    //   achievements: [
+    //     "Developed component library used across 5 products",
+    //     "Improved user engagement by 25% through UI improvements",
+    //     "Established coding standards and best practices"
+    //   ]
+    // }
   ];
 
   return (

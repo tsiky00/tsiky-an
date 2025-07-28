@@ -10,17 +10,17 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 pt-16">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 pt-24">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Your Name
+              Anjarasoa Tsiky
             </span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-            Full-Stack Developer & Creative Problem Solver
+            Développeur Full-Stack  et web designer
           </p>
           <p className="text-lg text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
             I build exceptional digital experiences with modern technologies. 
@@ -29,10 +29,10 @@ export default function Hero() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <button className="bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 transform hover:scale-105">
-              View My Work
+              Voir plus
             </button>
             <button className="border-2 border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-8 py-3 rounded-lg font-medium transition-all duration-200 transform hover:scale-105">
-              Download Resume
+              Download CV
             </button>
           </div>
 

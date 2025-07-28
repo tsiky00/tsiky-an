@@ -40,9 +40,10 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="w-80 h-80 mx-auto bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 rounded-full flex items-center justify-center">
-              <div className="w-64 h-64 bg-gradient-to-br from-blue-600 to-purple-600 dark:from-blue-500 dark:to-purple-500 rounded-full flex items-center justify-center text-white text-6xl font-bold">
+              {/* <div className="w-64 h-64 bg-gradient-to-br from-blue-600 to-purple-600 dark:from-blue-500 dark:to-purple-500 rounded-full flex items-center justify-center text-white text-6xl font-bold">
                 YN
-              </div>
+              </div> */}
+              <div><img className='rounded-full flex items-center' src="src/components/img/IMG20250712123842[1].jpg" alt="photo de tsiky" /></div>
             </div>
           </div>
 
