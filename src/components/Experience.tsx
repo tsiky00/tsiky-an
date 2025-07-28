@@ -4,15 +4,15 @@ import { Briefcase, Calendar } from "lucide-react";
 export default function Experience() {
   const experiences = [
     {
-      title: "Developpeur Full-stack junior",
+      title: "Stagiaire Développeur Full-stack",
       company: "Nir-'info",
-      period: "2025 - Present",
+      period: "juin- Aout 2025 ",
       description:
-        "Lead development of enterprise web applications using React, Node.js, and cloud technologies. Mentor junior developers and architect scalable solutions.",
+        "Participation au développement d'applications web en React et PHP (backend), avec une approche centrée sur l’optimisation du code et l'expérience utilisateur. Mentor junior developers and architect scalable solutions.",
       achievements: [
-        "Led team of 5 developers in delivering 3 major product releases",
-        "Improved application performance by 40% through optimization",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Contribution au développement d’une application interne en React",
+        "Amélioration de certaines fonctionnalités backend avec PHP/MySQL",
+        "Participation aux réunions techniques et aux revues de code",
       ],
     },
     // {
@@ -44,7 +44,7 @@ export default function Experience() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Professional Experience
+            Experience professionnel
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             My journey as a developer and the impact I've made
