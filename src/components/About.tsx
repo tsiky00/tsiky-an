@@ -43,7 +43,7 @@ export default function About() {
               {/* <div className="w-64 h-64 bg-gradient-to-br from-blue-600 to-purple-600 dark:from-blue-500 dark:to-purple-500 rounded-full flex items-center justify-center text-white text-6xl font-bold">
                 YN
               </div> */}
-              <div><img className='rounded-full flex items-center' src="src/components/img/IMG20250712123842[1].jpg" alt="photo de tsiky" /></div>
+              <div><img className='rounded-full flex items-center' src="/img/IMG20250712123842[1].jpg" alt="photo de tsiky" /></div>
             </div>
           </div>
 
